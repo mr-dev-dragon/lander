@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #00000007;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ ul li {
+    list-style-type: none;
+
+}
+
+li:hover{
+    color: #813f1c ;
+
+}
+
+a{
+    color: #F38E59;
+    text-decoration: none;
+}
+a:hover{
+    color: #854e31;
+}
+
+.all-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.all-nav-header{
+    background-color: #F38E59;
+    display: flex;
+    flex-wrap: wrap; 
+     position: fixed;
+    justify-content: center;
+    width: 100%;
+  
+
+    
+}
+.left-nav{
+    
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+
+.left-nav-ul {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    margin-left: 80px;
+    gap: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    
+    
+
+
+}
+
+.left-nav-li {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    
+
+}
+
+
+
+
+.logo{
+    padding: 10px 100px 10px 0px;
+}
+.right-nav{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 90px;
+}
+
+.vip-btn {
+   background: #02202F;
+    color: rgb(255, 255, 255);
+    border: 0;
+    font-size:18px;
+    padding: 15px ;
+    border-radius: 5px ;
+    margin: 10px;
+}
+.login-btn{  
+    background: #F38E59;
+    color: #ffffff;
+    border: solid 2px #ffffff;
+    font-size: 17px;
+    padding: 10px ;
+    border-radius: 5px ;
+    margin: 8px;;
+    width: 90px;
+    height: 55px;
+    
+}
+.bottom-nav-header {
+    background-color: #F38E59;
+    width: 100%;
+    text-align: center;
+    padding:150px;
+}
+h1 {
+    color: rgb(240, 240, 240);
+    font-size: 70px;
+    padding: 20px; 
+}
+.bottom-nav-header-p{
+    color: #03030380;
+    padding: 10px;;
+}
+
+
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 80px;
+    justify-content:space-evenly;
+    
+}
+.form-header{
+    padding: 10px;
+}
+h2 {  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #5BB5DE;
+    font-size: 40px;
+    padding: 10px;
+}
+.article-p {
+    font-family:inherit;
+    font-size: 18px;
+    padding: 10px;
+}
+form {
+    padding: 20px;
+}
+
+input {
+    
+    height: 50px;
+    width: 450px;
+    margin: 5px 0px ;
+}
+.text-area{
+    width: 452px;
+    height: 100px;
+    margin: 5px 0px ;
+}
+
+.submit-button {   
+    background-color: #F38E59;
+    color:#FFFBFB ;
+    font-size: 16px;
+    border: 0;
+    padding: 16px;
+    border-radius:3px ;
+    margin: 5px 20px ;
+
+}
+.aside-header{
+    padding: 10px;
+}
+
+h3 {
+    color: rgb(42, 42, 42);
+    font-size: 25px;
+    font-weight: 1500;
+    margin-left: 100px;
+    
+  
+}
+.facebook{
+    display: flex;
+    gap: 25px;
+    margin: 30px 20px;
+    padding: 10px;
+
+}
+
+.twetter {
+    display: flex;
+    gap: 25px;
+    margin: 30px 20px;
+     padding: 10px;
+}
+.linkedin {
+    display: flex;
+    gap: 25px;
+    margin: 30px 20px;
+     padding: 10px;
+}
+
+
+
+
+footer {
+    background-color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   padding: 60px 60px 120px 60PX;
+
+}
+.footer-header{
+    color:#ffffff ;
+    font-weight:400;
+    font-size: 22px;
+}
+.footer-nav { 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: #ffffff55;
+     text-decoration: none;
+     font-size: 15px;
+     line-height: 1.5;
+    }
+
+
+.footer-icon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 10px;
+    
+}
+
+
+.footer-butten{
+    border: 0;
+    font-size: 12px;
+    padding: 10px ;
+    border-radius: 10px ;
+    line-height: 1.5;
+    background:  #02202F;
+    color: #FFFBFB;
+    margin-top: 10px;
+}
+.bottom-footer{
+    background-color: rgb(59, 59, 59);
+    color: #e4e4e4;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bootom-footer-p{
+    text-align: center;
+}
